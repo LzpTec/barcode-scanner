@@ -90,6 +90,13 @@ export interface ScanOptions {
    * @since 1.2.0
    */
   targetedFormats?: SupportedFormat[];
+
+  /**
+   * ANDROID ONLY. Should the scanner start with the torch on?
+   *
+   * @since 2.X.X
+   */
+  shouldStartWithTorchOn?: boolean;
 }
 
 export interface StopScanOptions {
