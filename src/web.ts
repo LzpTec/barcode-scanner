@@ -1,11 +1,13 @@
 import { WebPlugin } from '@capacitor/core';
+
 import type {
   BarcodeScannerPlugin,
   CheckPermissionOptions,
   CheckPermissionResult,
-  StopScanOptions
+  ScanOptions,
+  ScanResult,
+  StopScanOptions,
 } from './definitions';
-
 
 export class BarcodeScannerWeb
   extends WebPlugin
